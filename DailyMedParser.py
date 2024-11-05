@@ -1,3 +1,5 @@
+
+
 import os
 import pprint
 import csv
@@ -6,7 +8,7 @@ import xml.etree.ElementTree as ET
 # Folder path for XML files
 folder_path = r'.//Only_xmls//Sample_forTest'
 HL7 = {'hl7': 'urn:hl7-org:v3'}
-c = 0
+c = 0 #initialize
 
 # Track fieldnames for each CSV file separately
 csv_fieldnames = {}
