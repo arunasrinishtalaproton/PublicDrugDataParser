@@ -8,12 +8,12 @@ import zipfile
 # HL7
 HL7 = {'hl7': 'urn:hl7-org:v3'}
 
-# Log file
+# This file logs currently any thing you tag message to
 def log_to_file(log_file, message):
     with open(log_file, 'a') as log:
         log.write(message + '\n')
 
-# UNII to UUID
+# UNII to UUID  : This takes the UNII input and gives the UUID
 def csv_to_transformed_dict(csv_file, key_column, value_column):
     data_dict = {}
     with open(csv_file, mode='r', newline='', encoding='utf-8-sig') as file:
