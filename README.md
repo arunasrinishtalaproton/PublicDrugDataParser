@@ -8,4 +8,5 @@ Run the code with sample xml file folder provided. You can add more files to thi
 after running this script please run
   python uploader.py
 ```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1799029.svg)](https://doi.org/10.5281/zenodo.1799029)
 
